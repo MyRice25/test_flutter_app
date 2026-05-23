@@ -13,6 +13,7 @@ import 'constants/StringConstants.dart';
 import 'data/services/fcm/fcm_service.dart';
 
 void main() async {
+  print("hello");
   WidgetsFlutterBinding.ensureInitialized();
 
   // await Firebase.initializeApp(

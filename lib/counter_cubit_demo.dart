@@ -47,6 +47,7 @@ class CounterCubitView extends StatelessWidget {
               child: const Icon(Icons.add),
             ),
             Icon(Icons.navigate_next),
+            Icon(Icons.navigate_before),
             const SizedBox(height: 12),
             FloatingActionButton(
               key: const Key('decrement_button'),

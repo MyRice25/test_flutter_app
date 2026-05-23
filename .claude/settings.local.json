@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter analyze *)",
+      "PowerShell(flutter pub add flutter_bloc)",
+      "PowerShell(flutter test test\\\\counter_cubit_demo_test.dart)",
+      "PowerShell(flutter analyze)",
+      "PowerShell(flutter test)"
+    ]
+  }
+}

@@ -16,20 +16,19 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   print("앱 시작: main() 함수 실행");
   print("앱 시작: Flutter ndsajnfksa");
-  print("앱 시작: nnnnnn");
+  print("앱 시작: Flutter ndsajnfksa nanadmmme");
   // await Firebase.initializeApp(
   //   options: DefaultFirebaseOptions.currentPlatform,
   // );
 
-  // KakaoSdk.init(nativeAppKey: "2ea12f3dfdfaeea6d8227a429a9b6ead");
-  print("앱 시작: Kakao SDK");
-  print("앱 시작: Kakao SDK name");
-  print("앱 시작: ");
+  KakaoSdk.init(nativeAppKey: "2ea12f3dfdfaeea6d8227a429a9b6ead");
+  print("앱 시작: Kakao SDK ndsajnfksa");
+  print("앱 시작: Kakao SDK nanadmmme");
+  print("앱 시작: Koako SDK ndsajnfksa");
 
   // FCM 초기화
   final FcmService fcmService = FcmService();
   await fcmService.initialize();
-  await fcmService.requestPermission();
 
   await initializeDateFormatting('ko_KR', null);
 

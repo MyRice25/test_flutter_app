@@ -17,6 +17,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   print("앱 시작: main() 함수 실행");
   print("앱 시작: Flutter 엔진 초기화 완료");
+  print("앱 시작: 필요한 서비스 초기화 시작");
   // await Firebase.initializeApp(
   //   options: DefaultFirebaseOptions.currentPlatform,
   // );

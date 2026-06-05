@@ -15,16 +15,15 @@ import 'data/services/fcm/fcm_service.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   print("앱 시작: main() 함수 실행");
-  print("앱 시작: Flutter dsaaaa");
-  print("앱 시작: Folder structure ok");
+  print("앱 시작: Flutter Dart");
+  print("앱 시작: world 2511");
   // await Firebase.initializeApp(
   //   options: DefaultFirebaseOptions.currentPlatform,
   // );
 
-  KakaoSdk.init(nativeAppKey: "2ea12f3dfdfaeea6d8227a429a9b6ead");
-  print("앱 시작: Kakao SDK mmmmm");
-  print("앱 시작: Kakao SDK ok đổi được rồi");
-  print("앱 시작: Koako SDK loaded");
+  print("앱 시작: Kakao SDK nam");
+  print("앱 시작: Kakao SDK mỹ");
+  print("앱 시작: Koako SDK 2511");
 
   // FCM 초기화
   final FcmService fcmService = FcmService();

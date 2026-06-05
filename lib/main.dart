@@ -13,6 +13,7 @@ import 'constants/StringConstants.dart';
 import 'data/services/fcm/fcm_service.dart';
 
 void main() async {
+  
   WidgetsFlutterBinding.ensureInitialized();
   print("앱 시작: main() 함수 실행");
   print("앱 시작: Flutter Dart");

@@ -16,7 +16,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   print("앱 시작: main() 함수 실행");
   print("앱 시작: Flutter ndsajnfksa");
-  print("앱 시작: Flutter ndsajnfksa nanadmmme");
+  print("앱 시작: Fmmmcupm");
   // await Firebase.initializeApp(
   //   options: DefaultFirebaseOptions.currentPlatform,
   // );

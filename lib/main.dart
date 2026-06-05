@@ -18,9 +18,9 @@ void main() async {
   print("앱 시작: main() 함수 실행");
   print("앱 시작: Flutter ndsajnfksa");
   print("앱 시작: nnnnnn");
-  // await Firebase.initializeApp(
-  //   options: DefaultFirebaseOptions.currentPlatform,
-  // );
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 
   // KakaoSdk.init(nativeAppKey: "2ea12f3dfdfaeea6d8227a429a9b6ead");
   print("앱 시작: Kakao SDK");
@@ -51,6 +51,7 @@ void main() async {
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
+    DeviceOrientation.landscapeLeft,
   ]);
 
   runApp(const MyApp());

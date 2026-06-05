@@ -21,7 +21,9 @@ void main() async {
   // );
 
   // KakaoSdk.init(nativeAppKey: "2ea12f3dfdfaeea6d8227a429a9b6ead");
-
+  print("앱 시작: Kakao SDK 초기화 완료");
+  print("앱 시작: FCM 초기화 시작");
+  print("앱 시작: FCM 초기화 완료");
   // FCM 초기화
   final FcmService fcmService = FcmService();
   await fcmService.initialize();

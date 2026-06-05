@@ -28,8 +28,8 @@ void main() async {
   print("앱 시작: FCM 초기화 완료");
 
   // FCM 초기화
-  print("앱 시작: FCM 서비스 인스턴스 생성");
-  print("앱 시작: FCM 서비스 초기화 시작");
+  print("앱 시작:nnnnn");
+  print("앱 시작: mmmm");
   final FcmService fcmService = FcmService();
   await fcmService.initialize();
 

@@ -16,11 +16,11 @@ void main() async {
   
   WidgetsFlutterBinding.ensureInitialized();
   print("앱 시작: main() 함수 실행");
-  print("앱 시작: Flutter Dart");
-  print("앱 시작: world 2511");
-  // await Firebase.initializeApp(
-  //   options: DefaultFirebaseOptions.currentPlatform,
-  // );
+  print("앱 시작: Flutter ndsajnfksa");
+  print("앱 시작: nnnnnn");
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 
   print("앱 시작: Kakao SDK nam");
   print("앱 시작: Kakao SDK mỹ");
@@ -49,6 +49,7 @@ void main() async {
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
+    DeviceOrientation.landscapeLeft,
   ]);
 
   runApp(const MyApp());
